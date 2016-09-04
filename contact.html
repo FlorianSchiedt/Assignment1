@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<header>Contact!</header>
+    <header>Contact!</header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -17,5 +17,42 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Ask your question</legend>
+                <div>
+                    <label for="type">Type:</label>
+                    <select id="type" name="type_select">
+                        <option value="request" selected>Request</option>
+                        <option value="question">Question</option>
+                        <option value="random">Something Random</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </div>
+
+                <div>
+                    <label for="question">Question:</label>
+                    <textarea id="question" name="question_input"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>How should I contact you?</legend>
+                <label for="meth_phone">Telefone:</label>
+                <input type="radio" id="meth_phone" name="method" value="phone"><br>
+                <label for="meth_email">Email:</label>
+                <input type="radio" id="meth_email" name="method" value="email"><br>
+            </fieldset>
+            <div class="button">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+
 </body>
 </html>
