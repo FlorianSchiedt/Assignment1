@@ -1,0 +1,10 @@
+/* TEAM */
+	Creator: Florian Schiedt
+	Twitter: @Eldraev
+	From: Växjö, Sweden
+
+/* SITE */
+	Last update:2016/09/04
+	Language: English
+	Doctype:HTML5
+	IDE: JetBrains Webstorm
