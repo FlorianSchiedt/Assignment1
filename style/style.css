@@ -16,6 +16,21 @@ nav{
 
 nav ul li {
     display: inline;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+
+nav ul li a {
+    text-decoration:none;
+}
+
+
+nav ul li:hover {
+    display: inline;
+    padding: 10px 15px;
+    font-size: 28px;
 }
 
 header{
@@ -36,7 +51,26 @@ main{
     padding-top: 150px;
     width: 70%;
     background-color: fuchsia;
+    text-align: center;
 }
+
+main article{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:1px solid black;
+}
+
+main article p{
+    text-align: center;
+}
+
+main article .timestamp{
+    text-align: right;
+    font-size: 10px;
+    font-style: oblique;
+}
+
 #right_aside{
     float: right;
     width: 15%;
