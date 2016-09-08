@@ -3,6 +3,8 @@ body {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
+    background-color: #000f28;
+    background-image: url("../img/pattern.jpg");
 }
 
 nav{
@@ -11,7 +13,8 @@ nav{
     top: 100px;
     margin-left: 15%;
     height: 50px;
-    background-color: aqua;
+    background-color: #181f29;
+    text-align: center;
 }
 
 nav ul li {
@@ -24,41 +27,50 @@ nav ul li {
 
 nav ul li a {
     text-decoration:none;
+    transition:1s;
+    color: rebeccapurple;
 }
 
 
-nav ul li:hover {
-    display: inline;
-    padding: 10px 15px;
-    font-size: 28px;
+nav ul li a:hover {
+    color: mediumpurple;
 }
 
 header{
+    text-align: center;
     position: fixed;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #131a24;
     margin-left: 15%;
     width: 70%;
+    font-size: 90px;
+    color: #bbbbbb;
 }
 #left_aside{
+    color: #bbbbbb;
     float: left;
     width: 15%;
-    background-color: teal;
+    background-color: #131a24;
     padding-top: 150px;
 }
 main{
     float: left;
-    padding-top: 150px;
+    margin-top: 150px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
     width: 70%;
-    background-color: fuchsia;
+    background-color: #282f39;
     text-align: center;
+    min-height: 80vh;
+    color: #bbbbbb;
 }
 
 main article{
+    border-radius: 20px;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
-    border:1px solid black;
+    border: 3px solid #383f49;
 }
 
 main article p{
@@ -66,14 +78,16 @@ main article p{
 }
 
 main article .timestamp{
+    padding-right: 10px;
     text-align: right;
     font-size: 10px;
     font-style: oblique;
 }
 
 #right_aside{
+    color: #bbbbbb;
     float: right;
     width: 15%;
-    background-color: teal;
+    background-color: #131a24;
     padding-top: 150px;
 }
