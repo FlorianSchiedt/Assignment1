@@ -1,0 +1,11 @@
+main fieldset {
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid #383f49;
+}
+
+main form{
+    text-align: center;
+}
