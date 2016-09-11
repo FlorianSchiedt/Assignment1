@@ -1,0 +1,18 @@
+main article{
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid #383f49;
+}
+
+main article p{
+    text-align: center;
+}
+
+main article .timestamp{
+    padding-right: 10px;
+    text-align: right;
+    font-size: 10px;
+    font-style: oblique;
+}

@@ -4,14 +4,16 @@
     <meta property="og:title" content="Pixelart Portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://pixeljoint.com/files/icons/splats.png" />
+    <meta property="og:url" content="https://florianschiedt.github.io/Assignment1/html/news.html" />
     <meta charset="utf-8" />
     <title>Portfolio Site</title>
     <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/news.css" />
 
 </head>
 
 <body>
-<header>Recent Stuff!</header>
+<header>Recent Stuff</header>
     <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -21,27 +23,66 @@
         </ul>
     </nav>
 
-    <aside id="left_aside">
-        left aside
+    <aside id="aside1">
+        <h2>Projects:</h2>
+        <a href="http://www.starshardgame.com/" ><img src="../img/Titles3.png" alt="Starshard" ></a>
     </aside>
 
     <main>
-        Main
+        <article>
+            <p>
+                Seperating the html from the css is a very useful thing to do. On the one hand it makes
+                the files more readable and not as cluttered. On the other hand it makes it possible to
+                reuse css and build a style from multiple files. For example in this assignment I used a
+                style.css for the general style of the page and then added specific rules for the different
+                parts where it was needed. Furthermore you can also just switch out the css without a problem
+                when they are seperated. If the html markup is well done it should be easy to adapt another style.
+            </p>
+            <div class="timestamp"> posted <time datetime="2016-09-11T17:39">September 2016</time> </div>
+        </article>
+        <article>
+            <p>
+                Open Graph is used to display links in a meaningful way on social media. By adding some
+                meta information to the site it can be displayed in a meaningful way rather than just by
+                displaying text to represent the link. I used only the required properties for this assignment
+                (title, type, image, url) but even more can be used to display information about the page.
+            </p>
+            <div class="timestamp"> posted <time datetime="2016-09-11T17:39">September 2016</time> </div>
+        </article>
+        <article>
+            <p>
+                Humans.txt is a file made to give credit to the creators of websites. It follows a standard format
+                to be easily readable. I only have one entry in the /* TEAM */ category since I made the site
+                myself. For the /* SITE */ I mentioned some of the software I used and some general information about the site.
+            </p>
+            <div class="timestamp"> posted <time datetime="2016-09-11T17:32">September 2016</time> </div>
+        </article>
+        <article>
+            <p>
+                Robots.txt is a file made for bots that traverse your site. Examples of such bots are
+                parts of a search engine such as google that index web pages. By adding rules in this document you
+                can tell search engines to not index some or all of your pages. However malicious bots will ingore
+                these rules. On my page I did what was asked of me in the assignment and told it to not index the
+                contact page.
+            </p>
+            <div class="timestamp"> posted <time datetime="2016-09-11T17:24">September 2016</time> </div>
+        </article>
         <article>
             <img src="../img/ectomancer.png" alt="Ectormancer Pixelart">
-            <p> Here goes somet text about it</p>
+            <p> Designed a new class prototype for Starshard.</p>
             <div class="timestamp"> posted <time datetime="2016-09-04T14:58">September 2016</time> </div>
         </article>
 
         <article>
             <img src="../img/christine.gif" alt="Wolf-girl Pixelart">
-            <p> Here goes somet text about it</p>
+            <p> Finished my last comission. This one was commissioned for an unnamed RPG.</p>
             <div class="timestamp"> posted <time datetime="2016-09-04T14:54">September 2016</time> </div>
         </article>
     </main>
 
-    <aside id="right_aside">
-        right aside
+    <aside id="aside2">
+        <h2>Media:</h2>
+        <a href="https://twitter.com/Eldraev" ><img src="../img/Official_Twitter_%20button.png" alt="Twitter" ></a>
     </aside>
 
 </body>
